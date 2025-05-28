@@ -12,5 +12,7 @@ char pw_pair_impair(char *str) {
         }
         current++;
     }
+
+ 
     return (count % 2 == 0) ? 'P' : 'I';
 }
